@@ -16,65 +16,73 @@
                     id="logo">
                 <span id="odinText">Odin</span>
             </div>
-            <span id="photoCred">Photo by <a href="">Hailey West</a> on <a href=" ">Unsplash</a></span>
+            <span id="photoCred">Photo by <a href="https://unsplash.com/@haliewestphoto">Hailey West</a> on <a
+                    href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></span>
         </div>
-        <form action="formsubmit" method="post">
-        <div class="form">
+        <form action="formsubmit" method="post" autocomplete="on" >
+            <div class="form">
 
-            <div id="header">
+                <div id="header">
 
-                <span id="headerText">This is not a real online service! You know you need something like this in
-                    in your life to help you realize your deepest dreams. Sign up now to get started.
-                </span>
+                    <span id="headerText">This is not a real online service! You know you need something like this in
+                        in your life to help you realize your deepest dreams. Sign up now to get started.
+                    </span>
 
-<p>
-                <span >You <em>know</em> you want to</span>
-</p>
+                    <p>
+                        <span>You <em>know</em> you want to</span>
+                    </p>
 
-            </div>
-            <div id="inputs">
-                <span>Let's do this!</span>
+                </div>
+                <div id="inputs">
+                    <span>Let's do this!</span>
 
+                    <div class="inputDivs">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="inputDivs">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                        </div>
+                    </div>
+                    <div class="inputDivs">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <div>
+                            <label for="confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm" name="confirmPassword"
+                                required>
+                        </div>
+                    </div>
 
-                <div class="inputDivs">
+                </div>
+                <div id="footer">
+
                     <div>
-                        <label for="firstName">FIRST NAME</label>
-                        <input type="text" name="fistName" id="firstName">
+                        <button type="submit"> Create Account</button>
                     </div>
-                    <div>
-                        <label for="lastName">LAST NAME</label>
-                        <input type="text" name="lastName" id="lastName">
+                    <div id="loginText">
+                        Already have an account? <a href="" id="login">Log in</a>
                     </div>
-                </div>
-                <div class="inputDivs">
-                    <div><label for="email">EMAIL</label><input type="email" id="email"></div>
-                    <div><label for="phoneNumber">PHONE
-                            NUMBER</label><input type="number" id=phoneNumber></div>
-                </div>
-                <div class="inputDivs">
-                    <div><label for="password">PASSWORD</label><input type="password" id="password">
-                    </div>
-                    <div>
-                        <label for="confirm">CONFIRM PASSWORD</label><input t class="inputDivs"="password"
-                            id="password">
-                    </div>
-                </div>
 
+
+
+
+                </div>
             </div>
-            <div id="footer">
-
-                <div>
-                    <button type="submit"> Create Account</button>
-                </div>
-                <div id="loginText">
-                    Already have an account? <a href="" id="login">Log in</a>
-                </div>
-
-
-
-
-            </div>
-        </div>
         </form>
     </div>
 
