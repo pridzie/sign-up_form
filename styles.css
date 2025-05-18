@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:visited {
+    color: rgba(255, 255, 255, 0.667);
+}
+
+body {
+    background: #0E0E0E;
+    background-repeat: no-repeat;
+}
+
+#card {
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(253, 253, 253, 0.65);
+    height: 823px;
+    margin: 30vh auto 30vh auto;
+    width: 1163px;
+    display: flex;
+}
+
+#cardImage {
+
+    width: 431px;
+    height: 823px;
+    background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: cover;
+    padding: 180px 0;
+    box-sizing: border-box;
+}
+
+
+.overlay {
+    height: 120px;
+    width: 430px;
+    background-color: #02020278;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    height: 90%;
+    width: auto;
+
+}
+
+#odinText {
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 5rem;
+    margin-top: 2rem;
+    font-weight: 2rem;
+}
+
+#photoCred {
+    color: rgba(255, 255, 255, 0.667);
+    position: relative;
+    bottom: -490px;
+    left: 120px;
+    font-size: 0.7rem;
+}
+
+
+/* form right hand side of card down under */
+
+.form {
+    height: 823px;
+    width: 730px;
+    box-sizing: border-box;
+
+}
+
+#header {
+    height: 35%;
+    width: 100%;
+    padding: 120px 80px 0 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#header>p{
+    margin-top: 30px;
+}
+
+#inputs {
+    height: 30%;
+    overflow: auto;
+    padding: 20px 40px;
+    box-shadow: 0 5px 8px rgba(162, 162, 162, 0.65);
+    position: relative;
+    background-color: #FFFFFF;
+
+
+}
+
+#footer {
+    height: 35%;
+    padding: 40px 40px;
+    box-sizing: border-box;
+
+}
+
+#header,
+#footer {
+    background-color: #F8F9FA;
+
+}
+
+#header,
+#inputs,
+#footer {
+    box-sizing: border-box;
+}
+
+.inputDivs {
+    display: flex;
+}
+
+#inputs>span {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+
+.inputDivs>div {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+
+    padding-top: 17px;
+}
+
+button {
+    font-size: 0.9rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 0.5em;
+    border: #596D48;
+    padding: 1em 2em;
+    width: 190px;
+    margin-bottom: 1em;
+    box-shadow: 1px 3px 8px rgb(160, 159, 159);
+
+}
+
+#login {
+    color: #596D48;
+    text-decoration: none;
+
+}
+
+#loginText {
+    margin-top: 20px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-radius: 4px;
+    width: 200px;
+    height: 24px;
+    background-color: #FFFEFE;
+    box-shadow: none;
+    padding: 0 10px;
+    border: 1px solid #E6E8EC;
+    margin: 2px 0;
+
+
+}
+
+#password:invalid {
+    border: 1px solid red;
+
+}
+
+input:hover {
+    border:1px solid blue;
+    box-shadow: 1px 4px 10px rgb(193, 192, 192);
+}
+
+label {
+    font-size: 0.6rem;
+    font-weight: 600;
+}
